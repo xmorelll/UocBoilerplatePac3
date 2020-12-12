@@ -1,5 +1,6 @@
 @tailwind base;
 @tailwind components;
+
 /**
  * Import variables
  */
@@ -22,8 +23,10 @@
 
 @import "layouts/home";
 
+
 /**
  * Do NOT include anything else in this file!
  */
 
 @tailwind utilities;
+

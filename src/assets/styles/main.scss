@@ -1,3 +1,5 @@
+@tailwind base;
+@tailwind components;
 /**
  * Import variables
  */
@@ -23,3 +25,5 @@
 /**
  * Do NOT include anything else in this file!
  */
+
+@tailwind utilities;

@@ -37,7 +37,8 @@
     "sass": "^1.26.10",
     "stylelint": "^13.8.0",
     "stylelint-config-standard": "^20.0.0",
-    "stylelint-scss": "^3.18.0"
+    "stylelint-scss": "^3.18.0",
+    "tailwindcss": "^2.0.1-compat"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1"

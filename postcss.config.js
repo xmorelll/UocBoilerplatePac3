@@ -2,6 +2,7 @@ module.exports = {
   plugins: [
     require("autoprefixer")(),
     require("postcss-clean")(),
+    require("tailwindcss")("./tailwind.config.js"),
     require("postcss-preset-env")({
       stage: 3,
       features: {

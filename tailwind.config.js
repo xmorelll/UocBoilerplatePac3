@@ -12,7 +12,8 @@ module.exports = {
     backgroundColor: theme => ({
       'darkblue': '#000078',
       'lightpink': '#ececff',
-      'lightyellow': '#ffffec'
+      'lightyellow': '#ffffec',
+      'grey': 'rgba(0, 0, 0, 0.8)'
 
     }),
     extend: {
@@ -25,6 +26,10 @@ module.exports = {
         '22px': '22px',
         '29px': '29px',
         '32px': '32px'
+      },
+      gridTemplateColumns: {
+        // repeat min 150px
+        'repeat150': 'repeat(auto-fill, minmax(150px, 1fr))',
       }
     },
     screens: {

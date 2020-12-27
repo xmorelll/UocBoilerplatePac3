@@ -1,16 +1,11 @@
-.btn-blue {
-  @apply bg-darkblue text-white;
+.grid-item {
+  @apply text-3xl text-center relative border-black border text-white;
 }
-
-.btn {
-  @apply py-8 p-8 ;
-}
-
 
 .grid-item:hover .grid-item__info--hovershow {
-  display: block;
+  @apply block ;
 }
 
 .grid-item__info--hovershow {
-  display: none;
+  @apply hidden absolute w-full top-0 h-full;
 }
